@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main{
+    font-family: 'Poppins', sans-serif;
+    min-height : 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    /* margin-top: -?; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle1,.circle2{
+    background: white; 
+    height: 10rem;
+    width: 10rem;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.9),  rgba(255,255,255,0.1));
+    
+    position: absolute;
+    
+
+}
+.heading{
+    position: absolute;
+    top:0.5%;
+    left:47vw;
+ }
+
+.circle1{
+    right:7%;
+    top:2%;
+    border-radius: 50%;
+    
+}
+.circle2{
+    bottom: 2%;
+    left:7%;
+    border-radius: 50%;
+}
